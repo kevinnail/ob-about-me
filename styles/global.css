@@ -27,16 +27,11 @@ main {
 }
 
 h1 {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background: none;
     margin: 0px auto 20px auto;
-    width: 20%;
-    border-radius: 10px;
+    width: 300px;
     padding: 10px 20px;
     display: flex;
     justify-content: center;
-    border: 2px black solid;
-    opacity: 0.8;
 }
 
 main {
@@ -47,28 +42,23 @@ main {
 }
 
 p {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    width: 50%;
-    margin: auto;
-    background-color: rgba(168, 168, 168, 0.9);
+    width: 75%;
+    margin: 10px auto 10px auto;
     padding: 20px;
-    border-radius: 15px;
-    background-color: rgba(168, 168, 168, 0.75);
 }
 
 ul {
     list-style-type: circle;
     margin: auto;
-    background-color: rgba(168, 168, 168, 0.75);
     padding: 20px 20px 20px 40px;
-    border-radius: 15px;
 }
 
 img {
-    width: 500px;
-    margin: auto;
+    width: 350px;
+    margin: auto 40% auto auto;
     border-radius: 50px;
     margin-bottom: 20px;
+    box-shadow: 0 0 15px black;
 }
 
 footer {
@@ -80,4 +70,15 @@ footer {
     justify-content: flex-end;
     /* background-color: var(--footer-background); */
     background-color: black;
+}
+
+h1,
+p,
+ul {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgba(168, 168, 168, 0.75);
+    border-radius: 15px;
+    line-height: 1.3em;
+    box-shadow: 0 0 25px black;
+    border: 2px black solid;
 }

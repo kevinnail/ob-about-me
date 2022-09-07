@@ -11,6 +11,7 @@ body {
     display: grid;
     grid-template-rows: auto 1fr auto;
     background-color: black;
+    /* background: url(/assets/mt.st.helens.JPG) no-repeat center center/ cover; */
 }
 
 header {
@@ -21,8 +22,20 @@ header {
     background-color: var(--header-background);
 }
 
+main {
+    background: url(/assets/mt.st.helens.JPG) no-repeat center center/ cover;
+}
+
 h1 {
-    background-color: rgba(168, 168, 168, 0.9);
+    background: none;
+    margin: 0px auto 20px auto;
+    width: 20%;
+    border-radius: 10px;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    border: 2px black solid;
+    opacity: 0.8;
 }
 
 main {
@@ -43,14 +56,16 @@ p {
 ul {
     list-style-type: circle;
     margin: auto;
-    background-color: rgba(168, 168, 168, 0.9);
-    padding: 20px;
+    background-color: rgba(168, 168, 168, 0.75);
+    padding: 20px 20px 20px 40px;
     border-radius: 15px;
 }
 
 img {
-    width: 30%;
+    width: 500px;
     margin: auto;
+    border-radius: 50px;
+    margin-bottom: 20px;
 }
 
 footer {
@@ -60,5 +75,6 @@ footer {
     font-size: 0.8em;
     display: flex;
     justify-content: flex-end;
-    background-color: var(--footer-background);
+    /* background-color: var(--footer-background); */
+    background-color: black;
 }

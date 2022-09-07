@@ -27,6 +27,7 @@ main {
 }
 
 h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     background: none;
     margin: 0px auto 20px auto;
     width: 20%;
@@ -46,11 +47,13 @@ main {
 }
 
 p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 50%;
     margin: auto;
     background-color: rgba(168, 168, 168, 0.9);
     padding: 20px;
     border-radius: 15px;
+    background-color: rgba(168, 168, 168, 0.75);
 }
 
 ul {
